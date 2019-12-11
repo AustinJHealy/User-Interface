@@ -49,6 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
+ 
     box-sizing: border-box;
 }
 
@@ -64,3 +65,101 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.logo {
+	display: inline-block;
+	margin-left: 20px;
+	
+}
+
+nav {
+	display: inline-block;
+	width: 80%;
+	height: 10px;
+	margin-top: 3%;
+} 
+
+nav > a {
+	color: gray;
+	text-decoration: none;
+	margin-left: 7%;
+	padding-right: 2%;
+
+}
+
+.header h1 {
+	display: inline-block;
+	text-align: center;
+	font-size: 80px;
+	height: 25%;
+	width: 50%;
+	margin-top: 200px;
+	margin-left: 18%;
+}
+
+.header > p {
+	display: inline-block;
+	border: 1px solid black;
+	width: 250px;
+	padding: 10px;
+	text-align: center;
+	margin-left: 36%;
+}
+
+	
+
+.header img {
+	position:absolute;
+	display: inline-block;
+	margin-top: 150px;
+	margin-left:60%;
+}
+
+hr{
+	border: 2px solid black;
+	width: 90%;
+}
+
+.first {
+	display:inline-block;
+	width: 50%;
+	margin-left:5%;
+
+}
+
+.first h2{
+	margin-left: 5%;
+}
+
+.first p{
+	display: inline-block;
+	width: 750px;
+}
+
+.second{
+	display:inline-block;
+	width:38%;
+}
+
+.middle-img{
+	display:block;
+	width: 90%;
+	margin-left: 80px;
+	padding: 10px;
+	margin-top:50px;
+}
+
+.column_one, .column_two, .column_three {
+	display:inline-block;
+	width: 25%;
+	margin: 20px 0px 50px 100px;
+}
+
+footer > h2, footer > address, footer > a, footer > p {
+	display:block;
+	margin-left:5%;
+	line-height:80px;
+}
+.copyright{
+	text-align:center;
+	margin: 50px 0px 50px 0px;
+}
